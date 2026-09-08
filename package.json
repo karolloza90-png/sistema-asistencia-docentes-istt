@@ -1,0 +1,24 @@
+{
+  "name": "sistema-asistencia-docentes-istt",
+  "version": "1.0.0",
+  "description": "Sistema de gestión de asistencia para docentes del ISTT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": ["asistencia", "docentes", "ISTT"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "jest": "^29.5.0"
+  }
+}
